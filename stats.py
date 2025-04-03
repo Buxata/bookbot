@@ -1,5 +1,3 @@
-from curses.ascii import isalpha
-
 def count_words(text):
     temp = text.split()
     return len(temp)
